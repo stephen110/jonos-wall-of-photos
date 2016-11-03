@@ -1,0 +1,40 @@
+.rai-digital {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo-set {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.photo-set-banner {
+    background-color: #111111;
+    color: #fafafa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.photo-set-content {
+    position: relative;
+    height: calc(100% - 40px);
+    margin-top: 45px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.banner__title {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.banner__image-count {
+    font-size: 12px;
+}
